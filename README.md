@@ -1,4 +1,4 @@
-<h1>vagrant-centos6-create-react-app</h1>
+<h1>vagrant-centos-create-react-app</h1>
 ======================
 
 Create facebook's default react app on a Vagrant/Virtualbox VM with a Centos6+ host, provisioned using shell.
@@ -7,8 +7,8 @@ Create facebook's default react app on a Vagrant/Virtualbox VM with a Centos6+ h
 
 ``` bash
 # Install
-git clone https://github.com/mrose/vagrant-centos6-create-react-app.git
-cd vagrant-centos6-create-react-app
+git clone https://github.com/mrose/vagrant-centos-create-react-app.git
+cd vagrant-centos-create-react-app
 
 # Update Configuration
 nano config
