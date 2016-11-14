@@ -1,0 +1,10 @@
+{ apps:
+  [
+    { name: "APP_NAME"
+    , script: "npm"
+    , cwd: "SITE_ROOT"
+    , args: "start"
+    }
+  ]
+}
+

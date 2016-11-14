@@ -1,0 +1,10 @@
+
+## get your ip (if you forgot):
+## ifconfig eth0 | grep inet | awk '{ print $2 }' | tr -d addr:[:cntrl:]
+
+## to edit a file using atom
+## the atom package https://atom.io/packages/remote-atom must first be installed locally
+## ssh -R 52698:localhost:52698 root@your.ip
+## use:
+## echo "ssh -R 52698:localhost:52698 root@$(ifconfig eth0 | grep inet | awk '{ print $2 }' | tr -d addr:[:cntrl:])"
+## rmate test.txt
